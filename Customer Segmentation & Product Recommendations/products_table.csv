@@ -1,0 +1,323 @@
+product_id,product_name,category,price,stock,supplier
+1,Smartphone,Electronics,699.99,150,TechCorp
+2,Laptop,Electronics,999.99,80,PCWorld
+3,Bluetooth Headphones,Electronics,199.99,200,SoundWave
+4,Smart TV,Electronics,499.99,75,VisionTech
+5,Smartwatch,Electronics,299.99,120,TimeKeepers
+6,Digital Camera,Electronics,799.99,60,PhotoMax
+7,Tablet,Electronics,399.99,90,GadgetPro
+8,External Hard Drive,Electronics,129.99,110,DataSafe
+9,Wireless Charger,Electronics,39.99,200,ChargeHub
+10,Gaming Console,Electronics,499.99,50,GameSphere
+11,4K Monitor,Electronics,299.99,40,ClearView
+12,VR Headset,Electronics,349.99,30,VirtualReal
+13,Electric Toothbrush,Health & Beauty,79.99,200,OralCare
+14,Skincare Set,Health & Beauty,49.99,150,GlowBeauty
+15,Makeup Kit,Health & Beauty,89.99,120,GlamCosmetics
+16,Perfume,Health & Beauty,59.99,200,FragranceHouse
+17,Hair Dryer,Health & Beauty,39.99,180,StyleMaster
+18,Face Mask,Health & Beauty,19.99,220,BeautyNest
+19,Protein Powder,Health & Beauty,29.99,100,NutriFit
+20,Yoga Mat,Sports & Outdoors,29.99,150,FitnessFirst
+21,Dumbbells,Sports & Outdoors,49.99,100,GymBuddy
+22,Bicycle,Sports & Outdoors,299.99,60,CycleLife
+23,Camping Tent,Sports & Outdoors,199.99,70,OutdoorGear
+24,Fishing Rod,Sports & Outdoors,79.99,80,CatchMaster
+25,Running Shoes,Sports & Outdoors,89.99,90,SportySteps
+26,Backpack,Sports & Outdoors,39.99,110,TrailBlazers
+27,Coffee Maker,Home Appliances,99.99,130,BrewMasters
+28,Blender,Home Appliances,49.99,160,SmoothiePro
+29,Microwave Oven,Home Appliances,199.99,75,QuickHeat
+30,Refrigerator,Home Appliances,899.99,50,CoolHome
+31,Washing Machine,Home Appliances,499.99,40,CleanWave
+32,Vacuum Cleaner,Home Appliances,299.99,70,DirtBuster
+33,Air Conditioner,Home Appliances,599.99,30,CoolBreeze
+34,Electric Kettle,Home Appliances,29.99,200,KettlePro
+35,Dining Set,Furniture,399.99,60,HomeStyle
+36,Sofa,Furniture,799.99,40,ComfortSeating
+37,Bed Frame,Furniture,499.99,50,SleepWell
+38,Office Chair,Furniture,149.99,90,WorkStation
+39,Bookshelf,Furniture,199.99,70,LibraryCo
+40,Coffee Table,Furniture,129.99,80,TableCraft
+41,Wardrobe,Furniture,699.99,20,StorageSolutions
+42,Nightstand,Furniture,89.99,100,BedroomEssentials
+43,T-shirt,Clothing,19.99,300,FashionHub
+44,Jeans,Clothing,49.99,150,DenimWorld
+45,Jacket,Clothing,89.99,100,OuterWear
+46,Sneakers,Clothing,69.99,120,ShoeZone
+47,Dress,Clothing,59.99,90,ChicStyles
+48,Skirt,Clothing,39.99,110,FashionNest
+49,Shorts,Clothing,29.99,150,SummerWear
+50,Sweater,Clothing,49.99,80,CozyKnits
+51,Cap,Clothing,15.99,250,HeadGear
+52,Watch,Clothing,199.99,60,Timepieces
+53,Sunglasses,Clothing,49.99,200,EyeWear
+54,Belt,Clothing,19.99,150,Accessories
+55,Handbag,Clothing,89.99,100,FashionBags
+56,Necklace,Clothing,29.99,130,JewelryBox
+57,Ring,Clothing,39.99,120,JewelryBox
+58,Baby Stroller,Baby Products,199.99,50,KidsCorner
+59,Diapers,Baby Products,49.99,200,BabyCare
+60,Baby Monitor,Baby Products,79.99,80,SafeSleep
+61,Baby Toys,Baby Products,29.99,150,FunToys
+62,High Chair,Baby Products,99.99,70,FeedingTime
+63,Car Seat,Baby Products,149.99,60,TravelBuddy
+64,Formula Milk,Baby Products,29.99,200,NutriKids
+65,Baby Clothes,Baby Products,19.99,150,LittleFashion
+66,Pet Food,Pets,49.99,180,PetCare
+67,Dog Bed,Pets,59.99,90,ComfortPets
+68,Cat Litter,Pets,19.99,150,PetEssentials
+69,Pet Toys,Pets,29.99,100,FunForPets
+70,Dog Leash,Pets,9.99,200,PetGear
+71,Fish Tank,Pets,89.99,40,AquaticWorld
+72,Bird Cage,Pets,79.99,30,BirdLife
+73,Reptile Habitat,Pets,99.99,20,ExoticPets
+74,Smart Speaker,Electronics,149.99,110,AudioTech
+75,Digital Photo Frame,Electronics,69.99,60,FrameIt
+76,Wireless Earbuds,Electronics,129.99,90,SoundBuds
+77,Action Camera,Electronics,399.99,40,AdventureGear
+78,Gaming Mouse,Electronics,49.99,150,GameTech
+79,Mechanical Keyboard,Electronics,79.99,100,KeyBoarder
+80,Graphics Card,Electronics,499.99,30,GraphicMaster
+81,Motherboard,Electronics,149.99,50,TechBuilders
+82,Mobile Case,Electronics,19.99,200,ProtectIt
+83,Screen Protector,Electronics,9.99,300,GuardTech
+84,Travel Backpack,Sports & Outdoors,69.99,100,AdventurePack
+85,Tennis Racket,Sports & Outdoors,79.99,80,SportyGear
+86,Surfboard,Sports & Outdoors,299.99,20,WaveRider
+87,Camping Gear,Sports & Outdoors,149.99,50,OutdoorFun
+88,Hiking Boots,Sports & Outdoors,89.99,75,TrailShoes
+89,Fishing Tackle,Sports & Outdoors,39.99,120,CatchAndRelease
+90,Golf Clubs,Sports & Outdoors,299.99,30,GolfPros
+91,Skateboard,Sports & Outdoors,49.99,100,SkateLife
+92,Boxing Gloves,Sports & Outdoors,29.99,150,FightClub
+93,Gym Bag,Sports & Outdoors,19.99,200,FitBag
+94,Rollerblades,Sports & Outdoors,89.99,60,RollerWorld
+95,Kettlebell,Sports & Outdoors,29.99,80,WeightLifter
+96,Resistance Bands,Sports & Outdoors,19.99,200,StrengthCoach
+97,Cooler Bag,Sports & Outdoors,39.99,90,CoolTech
+98,Water Bottle,Sports & Outdoors,9.99,300,HydrationPro
+99,Portable Grill,Sports & Outdoors,149.99,40,GrillMaster
+100,Electric Skateboard,Sports & Outdoors,499.99,10,UrbanRide
+101,Billiards Table,Sports & Outdoors,399.99,20,GameRoom
+102,Foosball Table,Sports & Outdoors,299.99,15,PlayZone
+103,Dart Board,Sports & Outdoors,29.99,100,DartsUnlimited
+104,Snorkeling Gear,Sports & Outdoors,69.99,50,UnderwaterAdventures
+105,Kayak,Sports & Outdoors,399.99,15,WaterSports
+106,Lawn Mower,Gardening,299.99,20,GardenCare
+107,Hedge Trimmer,Gardening,89.99,40,TrimMasters
+108,Plant Pots,Gardening,19.99,200,GardenEssentials
+109,Garden Tools,Gardening,29.99,150,GardenTools
+110,Seeds Pack,Gardening,9.99,300,SeedMasters
+111,Fertilizer,Gardening,19.99,200,GrowFast
+112,Shovel,Gardening,14.99,250,GardenTools
+113,Rake,Gardening,9.99,300,GardenTools
+114,Wheelbarrow,Gardening,89.99,50,GardenTransport
+115,Soil Bags,Gardening,12.99,150,PlantCare
+116,Bird Feeder,Gardening,39.99,80,BirdLovers
+117,Composter,Gardening,49.99,70,EcoFriendly
+118,Patio Furniture Set,Furniture,599.99,20,OutdoorStyle
+119,Garden Bench,Furniture,199.99,30,OutdoorComfort
+120,Umbrella,Furniture,49.99,100,ShadeTech
+121,Fire Pit,Furniture,149.99,50,OutdoorLiving
+122,Grill,Furniture,199.99,40,CookoutEssentials
+123,Deck Chair,Furniture,39.99,80,RelaxOutdoor
+124,Outdoor Lighting,Furniture,29.99,150,LightItUp
+125,Garden Hose,Gardening,19.99,200,WaterWorks
+126,Hammock,Furniture,39.99,100,RestEasy
+127,Outdoor Storage Box,Furniture,89.99,60,StoreAway
+128,Fireplace Tools,Furniture,29.99,70,FireplaceEssentials
+129,Patio Heater,Furniture,249.99,30,WarmthPro
+130,Pool Float,Sports & Outdoors,29.99,150,SummerFun
+131,Fishing Kayak,Sports & Outdoors,499.99,10,KayakWorld
+132,Camping Hammock,Sports & Outdoors,39.99,90,CampsiteComfort
+133,Portable Power Bank,Electronics,49.99,150,PowerOn
+134,Mini Projector,Electronics,199.99,40,ProjectIt
+135,Smart Light Bulb,Electronics,29.99,200,BrightIdeas
+136,Home Security Camera,Electronics,99.99,70,SafeHome
+137,Fingerprint Door Lock,Electronics,199.99,30,SecureTech
+138,Smart Home Hub,Electronics,99.99,60,HomeAutomation
+139,Smart Thermostat,Electronics,149.99,50,EnergySmart
+140,Smart Plug,Electronics,19.99,150,SmartControl
+141,Wireless Range Extender,Electronics,59.99,80,SignalBoost
+142,4K Streaming Device,Electronics,79.99,70,StreamLine
+143,Home Theater System,Electronics,499.99,20,CinemaSound
+144,Smart Refrigerator,Electronics,1999.99,10,SmartHomeAppliances
+145,Home Massage Chair,Furniture,599.99,15,RelaxationStation
+146,Digital Scale,Health & Beauty,49.99,100,HealthMetrics
+147,Fitness Tracker,Health & Beauty,79.99,80,FitTech
+148,Blood Pressure Monitor,Health & Beauty,59.99,90,HealthGuard
+149,First Aid Kit,Health & Beauty,29.99,120,SafetyFirst
+150,Massage Gun,Health & Beauty,89.99,50,WellnessTools
+151,Electric Massager,Health & Beauty,99.99,30,ComfortZone
+152,Yoga Block,Sports & Outdoors,19.99,150,Flexibility
+153,Foam Roller,Sports & Outdoors,29.99,120,Recovery
+154,Sports Watch,Sports & Outdoors,59.99,100,TimeToMove
+155,Balance Board,Sports & Outdoors,49.99,80,BalancePro
+156,Resistance Training Set,Sports & Outdoors,39.99,90,StrengthTraining
+157,Smart Scale,Health & Beauty,99.99,70,HealthTech
+158,Portable Blender,Health & Beauty,39.99,150,SmoothieMaker
+159,Electric Hair Straightener,Health & Beauty,59.99,90,HairStyle
+160,Portable Steam Iron,Home Appliances,49.99,100,IronMaster
+161,Bread Maker,Home Appliances,79.99,80,BakerPro
+162,Air Fryer,Home Appliances,149.99,60,FryMaster
+163,Slow Cooker,Home Appliances,49.99,90,CrockPot
+164,Rice Cooker,Home Appliances,39.99,120,CookEasy
+165,Smart Thermos,Home Appliances,69.99,70,HeatKeep
+166,Sous Vide Machine,Home Appliances,199.99,40,ChefMaster
+167,Instant Pot,Home Appliances,89.99,50,InstantChef
+168,Electric Grill,Home Appliances,99.99,30,GrillIt
+169,Coffee Grinder,Home Appliances,29.99,200,GrindPerfect
+170,Food Processor,Home Appliances,89.99,90,PrepMaster
+171,Baking Set,Home Appliances,39.99,120,BakingEssentials
+172,Kitchen Scale,Home Appliances,19.99,150,PreciseMeasure
+173,Butter Churner,Home Appliances,59.99,60,ButterMaker
+174,Salt Lamp,Home Appliances,29.99,100,HealingLight
+175,Air Purifier,Home Appliances,199.99,20,CleanAir
+176,Dehumidifier,Home Appliances,149.99,30,DryHome
+177,Electric Skillet,Home Appliances,39.99,90,SkilletMaster
+178,Pasta Maker,Home Appliances,79.99,50,PastaPro
+179,Countertop Oven,Home Appliances,99.99,40,OvenMaster
+180,Deep Fryer,Home Appliances,69.99,60,FryKing
+181,Pressure Cooker,Home Appliances,89.99,30,PressureChef
+182,Wine Cooler,Home Appliances,299.99,10,ChillZone
+183,Vacuum Sealer,Home Appliances,49.99,80,SealIt
+184,Coffee Pod Machine,Home Appliances,79.99,50,PodBrew
+185,Air Hockey Table,Sports & Outdoors,399.99,15,GameRoom
+186,LED Strip Lights,Home Appliances,29.99,200,BrightHome
+187,Camping Stove,Sports & Outdoors,49.99,100,CampMaster
+188,Emergency Lantern,Home Appliances,39.99,150,LightIt
+189,Portable Air Conditioner,Home Appliances,399.99,10,CoolerPro
+190,Wireless Charging Pad,Electronics,29.99,100,ChargeNow
+191,Mini Refrigerator,Home Appliances,199.99,40,MiniCool
+192,Sound Bar,Electronics,199.99,50,HomeAudio
+193,Smart TV,Electronics,799.99,20,VisionHome
+194,Home Gym Equipment,Sports & Outdoors,499.99,10,FitZone
+195,Smart Doorbell,Electronics,99.99,70,SmartHome
+196,Smart Lock,Electronics,159.99,30,SecureHome
+197,4K TV,Electronics,799.99,10,HomeTheater
+198,Electric Kettle,Home Appliances,29.99,200,QuickBoil
+199,Electric Oven,Home Appliances,199.99,15,BakeMaster
+200,Portable Dishwasher,Home Appliances,499.99,5,DishEase
+201,Smart Coffee Maker,Home Appliances,149.99,20,SmartBrew
+202,Electric Wok,Home Appliances,69.99,80,StirFry
+203,Cordless Vacuum Cleaner,Home Appliances,199.99,30,CleanSweep
+204,Pressure Washer,Home Appliances,249.99,10,PowerWash
+205,Garden Tiller,Gardening,149.99,20,GardenTools
+206,Shed,Gardening,199.99,10,StorageSolutions
+207,Picnic Table,Furniture,299.99,10,OutdoorDining
+208,Firewood Rack,Furniture,49.99,100,FirewoodSupply
+209,Wall Planter,Gardening,39.99,80,GardenEssentials
+210,Metal Garden Edging,Gardening,29.99,150,GardenDesign
+211,Garden Trellis,Gardening,89.99,40,GardenStyle
+212,Garden Fountain,Gardening,199.99,15,GardenDecor
+213,Garden Swing,Furniture,149.99,30,OutdoorRelaxation
+214,Outdoor Rug,Furniture,29.99,150,RugArt
+215,Umbrella Stand,Furniture,39.99,100,ShadeSupport
+216,Garden Shed,Gardening,299.99,10,GardenStorage
+217,Bird Bath,Gardening,49.99,70,BirdGardens
+218,Garden Glider,Furniture,199.99,20,OutdoorSeating
+219,Garden Cart,Gardening,69.99,80,GardenTransport
+220,Decorative Stones,Gardening,14.99,100,GardenDecor
+221,Weed Puller,Gardening,19.99,120,GardenTools
+222,Compost Bin,Gardening,49.99,50,EcoFriendly
+223,Rain Gauge,Gardening,19.99,200,GardenEssentials
+224,Pest Control Spray,Gardening,29.99,90,GardenCare
+225,Outdoor Storage Shed,Furniture,299.99,10,StorageSolutions
+226,Garden Hose Reel,Gardening,49.99,50,WaterWorks
+227,Portable Fire Pit,Furniture,149.99,20,FirePitPro
+228,Patio Umbrella,Furniture,69.99,100,ShadePro
+229,Garden Netting,Gardening,19.99,150,GardenProtection
+230,Outdoor Fire Pit,Furniture,199.99,15,FirePitOutdoor
+231,Garden Rake,Gardening,24.99,80,GardenTools
+232,Garden Sprayer,Gardening,39.99,100,GardenCare
+233,Garden Fork,Gardening,29.99,150,GardenTools
+234,Weed Eater,Gardening,99.99,30,GardenMaintenance
+235,Garden Scissors,Gardening,14.99,90,GardenTools
+236,Garden Trowel,Gardening,9.99,200,GardenTools
+237,Garden Gloves,Gardening,14.99,150,GardenEssentials
+238,Portable Camping Table,Sports & Outdoors,69.99,60,CampEase
+239,Garden Shears,Gardening,49.99,80,GardenTools
+240,Greenhouse Kit,Gardening,299.99,10,GardenHaven
+241,Wind Chimes,Home Decor,19.99,200,GardenDecor
+242,Wall Art,Home Decor,39.99,100,ArtisticDecor
+243,Decorative Throw Pillows,Home Decor,29.99,150,CozyHome
+244,Area Rugs,Home Decor,59.99,70,RugHeaven
+245,Indoor Plant,Home Decor,29.99,120,HomeGreen
+246,Framed Photos,Home Decor,39.99,80,MemorableMoments
+247,Curtains,Home Decor,49.99,90,HomeStyle
+248,Wall Clock,Home Decor,29.99,100,TimeWellSpent
+249,Candles,Home Decor,19.99,150,CozyAmbiance
+250,Bookends,Home Decor,24.99,70,HomeOffice
+251,Vases,Home Decor,39.99,80,DecorativeTouch
+252,Decorative Baskets,Home Decor,49.99,60,OrganizedHome
+253,Mirrors,Home Decor,79.99,40,ReflectiveHome
+254,Shelving Units,Home Decor,149.99,20,StorageSolutions
+255,Picture Frames,Home Decor,19.99,200,PhotoGallery
+256,Decorative Wall Hooks,Home Decor,14.99,150,HomeOrganization
+257,Table Lamps,Home Decor,49.99,100,LightMyHome
+258,Outdoor String Lights,Home Decor,29.99,80,FestiveLighting
+259,Decorative Rugs,Home Decor,69.99,50,RugCollection
+260,Chalkboard,Home Decor,19.99,200,HomeLearning
+261,Bookcases,Home Decor,199.99,15,BookLovers
+262,Indoor Water Fountain,Home Decor,299.99,5,ZenSpace
+263,Pet Beds,Pets,49.99,100,ComfortPets
+264,Pet Toys,Pets,19.99,200,HappyPets
+265,Pet Food Bowls,Pets,29.99,150,PetEssentials
+266,Leashes,Pets,39.99,100,PetCare
+267,Pet Carriers,Pets,59.99,90,TravelWithPets
+268,Pet Grooming Kit,Pets,49.99,80,PetGrooming
+269,Fish Tank,Pets,99.99,30,AquaWorld
+270,Dog House,Pets,199.99,10,PetHome
+271,Cat Tree,Pets,149.99,15,HappyCats
+272,Aquarium Decor,Pets,29.99,100,AquariumEssentials
+273,Pet Training Pads,Pets,19.99,200,PetTraining
+274,Bird Cage,Pets,89.99,40,BirdCare
+275,Small Animal Cage,Pets,99.99,30,SmallAnimalCare
+276,Hamster Wheel,Pets,19.99,150,HamsterLife
+277,Pet Cooling Mat,Pets,29.99,100,SummerPets
+278,Pet Water Fountain,Pets,49.99,90,PetHydration
+279,Pet Shampoo,Pets,19.99,200,PetCare
+280,Pet Health Supplements,Pets,49.99,100,HealthyPets
+281,Reptile Tank,Pets,89.99,30,ReptileWorld
+282,Pet Apparel,Pets,39.99,80,FashionPets
+283,Aquarium Filter,Pets,59.99,70,AquariumCare
+284,Pet Carrier Backpack,Pets,49.99,90,TravelPets
+285,Dog Leash,Pets,19.99,150,DogCare
+286,Cat Litter Box,Pets,29.99,100,CatEssentials
+287,Pet Odor Eliminator,Pets,19.99,200,PetCare
+288,Bird Feeders,Pets,29.99,90,BirdCare
+289,Dog Bowls,Pets,39.99,80,DogEssentials
+290,Pet Toothbrush,Pets,14.99,150,PetHygiene
+291,Pet Tracking Device,Pets,29.99,100,PetSafety
+292,Pet Bed for Cats,Pets,24.99,200,CozyCats
+293,Pet Food Storage Container,Pets,39.99,80,PetStorage
+294,Cat Scratching Post,Pets,29.99,100,HappyCats
+295,Pet First Aid Kit,Pets,49.99,90,PetSafety
+296,Pet Travel Bed,Pets,39.99,100,TravelWithPets
+297,Reptile Accessories,Pets,19.99,150,ReptileCare
+298,Tropical Fish Food,Pets,29.99,200,FishFood
+299,Small Animal Food,Pets,19.99,150,SmallAnimalFood
+300,Pet Playpen,Pets,69.99,50,PetPlaytime
+301,Cat Treats,Pets,14.99,200,HappyCats
+302,Dog Training Treats,Pets,19.99,150,DogTraining
+303,Pet Nail Clipper,Pets,14.99,150,PetGrooming
+304,Pet Flea and Tick Prevention,Pets,29.99,80,PetCare
+305,Fish Tank Plants,Pets,29.99,100,AquariumEssentials
+306,Pet Travel Carrier,Pets,49.99,90,TravelWithPets
+307,Pet Cooling Vest,Pets,19.99,150,CoolPets
+308,Dog Training Pads,Pets,29.99,80,DogTraining
+309,Pet Grooming Gloves,Pets,19.99,100,PetGrooming
+310,Pet Bird Toys,Pets,14.99,150,HappyBirds
+311,Pet Travel Bowl,Pets,19.99,100,TravelPets
+312,Aquarium Lighting,Pets,39.99,60,AquariumCare
+313,Pet Carrier for Small Animals,Pets,39.99,80,SmallAnimalTravel
+314,Pet Cooling Bed,Pets,24.99,200,CoolPets
+315,Pet Squeaky Toys,Pets,14.99,150,HappyPets
+316,Dog Grooming Brush,Pets,19.99,100,PetGrooming
+317,Pet Toothpaste,Pets,14.99,200,PetHygiene
+318,Dog Crate,Pets,99.99,10,DogHome
+319,Dog Collar,Pets,29.99,150,DogEssentials
+320,Dog Bed,Pets,49.99,100,DogComfort
+321,Pet Travel Litter Box,Pets,39.99,90,TravelWithPets
+322,Pet First Aid Kit for Dogs,Pets,49.99,80,PetSafety

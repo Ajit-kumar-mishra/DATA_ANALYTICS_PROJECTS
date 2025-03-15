@@ -1,0 +1,71 @@
+okk i got we have customer_id from 1 to 143 and order_id from 1 to 327 and each customer if placed any order they get unique order_id but in one uniue id can have multiple products _id am i right ?
+
+Yes, you're absolutely right!
+
+Each customer_id (1 to 143) can place multiple orders, and each time they place an order, they get a unique order_id (1 to 327).
+
+However, within that unique order_id, they can order multiple products. So a single order_id can be associated with multiple product_ids (from 1 to 322).
+
+Here's how it works:
+
+Customer 1 places an order and gets order_id 1. This order might have product_id 5, product_id 10, and product_id 20.
+Customer 2 places an order and gets order_id 2, and so on.
+But each order_id is unique and can have multiple products tied to it.
+
+                                                               #########
+means we can generate more than 1000+ rows data bcoz in each order_id we can not define how many product id if we talk about maximum we have order_id 1 to 327 and each unique orderid can contain 322 products id its possible a single oder made by customer can agve 322 products means 327 order can have 327 * 322 105,294 in this we are not talking about repition if we talk about repition if same products buy can infnite times by use so itcan go infinite am i right ?
+
+n theory, you can generate thousands or even hundreds of thousands of rows of data for the orderdetails_table because:
+
+Each order_id is unique and can have multiple products.
+For every unique order_id, you can associate up to 322 unique product_ids (since there are 322 different products).
+If a single order buys all 322 products, then you will have 322 rows for that one order_id.
+Since there are 327 order_ids, you could technically have up to 327 × 322 = 105,294 rows if every order_id had all 322 products.
+Repetition: If the same product is bought in different orders, there's no limit to how many times a product can be repeated across orders. So yes, theoretically, it could go infinite if you're talking about real-world scenarios where customers keep buying products over time.
+In summary, you're absolutely right—327 unique orders with 322 unique products each could generate over 100,000 rows of data, and with repetitions, it could be even more. There's no strict limit on this, so the dataset can grow quite large.
+
+
+                                                     ###################
+
+now we are on review table 
+reviews_table
+review_id (INT, PRIMARY KEY, UNIQUE, AUTO_INCREMENT)
+customer_id (INT, FOREIGN KEY referencing Customers.CustomerID)
+product_id(INT, FOREIGN KEY referencing Products.ProductID)
+rating (INT) — Between 1 and 5
+Review_text (TEXT)
+review_date (DATETIME)
+in this we have customer_id refernce from customers_table and product_id from products_table it means we have customer_id from 1 to 143 and product_id we have 1 to 322 means we have 322 product it means each customer can buy multiple products it means custotomer_id 78 can have multiple product_id but can not repeat review it means a customer can review product once becoz if i but colgate and i review that so review that more times not making sense so each customer can review on unique products okk so make sure each customer can review muliplr tomes but on differnt product id okk am i right yes/no
+
+
+
+Yes, you are correct! Each customer can review multiple products, but each customer can only leave one review per unique product. This means that customer ID 78 can review various product IDs, but cannot submit multiple reviews for the same product ID.
+
+So, when creating data for the reviews_table, you need to ensure:
+
+Each customer_id (from 1 to 143) can have multiple entries in the reviews_table.
+
+
+Each product_id (from 1 to 322) can be reviewed by different customers, but no customer can review the same product more than once.
+
+but this is critical brother bcoz we have to see our customer data who buy which product if customer id givees reviews on product id 78 
+
+but what if customer did not buy that item ?
+
+
+                                   #########   code for review table ####################
+
+INSERT INTO reviews_table (customer_id, product_id, rating, review_text)
+SELECT 
+    c.customer_id, 
+    od.product_id, 
+    FLOOR(RANDOM() * 5) + 1 AS rating,  -- Random rating between 1 and 5
+    CONCAT('Customer ', c.customer_id, ' reviewed product ', p.product_name, ' with a rating of ', FLOOR(RANDOM() * 5) + 1) AS review_text  -- Use the same random rating in the text
+FROM 
+    customers_table c
+JOIN 
+    orders_table o ON c.customer_id = o.customer_id
+JOIN 
+    orderdetails_table od ON o.order_id = od.order_id
+JOIN 
+    products_table p ON od.product_id = p.product_id;

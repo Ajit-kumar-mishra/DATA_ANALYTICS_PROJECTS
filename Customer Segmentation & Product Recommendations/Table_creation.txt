@@ -1,0 +1,52 @@
+CREATE TABLE customer_table (
+    customer_id SERIAL PRIMARY KEY, -- Auto-incrementing unique identifier
+    first_name VARCHAR(100),        -- Customer's first name
+    last_name VARCHAR(100),         -- Customer's last name
+    gender VARCHAR(10),             -- Gender (e.g., Male, Female, Other)
+    age INT,                        -- Customer's age
+    email VARCHAR(255) UNIQUE,      -- Customer's email address
+    phone VARCHAR(15),              -- Customer's phone number
+    state_name VARCHAR(100),        -- State name
+    area VARCHAR(100),              -- Area name
+    country VARCHAR(100),           -- Country name
+    registration_date DATE          -- Registration date
+);
+
+CREATE TABLE products_table (
+    product_id SERIAL PRIMARY KEY,   -- Auto-incrementing unique identifier for products
+    product_name VARCHAR(255) NOT NULL, -- Name of the product
+    category VARCHAR(100),          -- Category of the product
+    price NUMERIC(10, 2) NOT NULL,  -- Price of the product
+    stock INT NOT NULL,             -- Quantity of the product in stock
+    supplier VARCHAR(255)           -- Supplier information
+);
+
+CREATE TABLE orders_table (
+    order_id SERIAL PRIMARY KEY,     -- Auto-incrementing unique identifier for orders
+    customer_id INT NOT NULL,        -- ID of the customer who placed the order
+    orderdate DATE NOT NULL,         -- Date when the order was placed
+    total_amount NUMERIC(10, 2) NOT NULL, -- Total amount of the order
+    CONSTRAINT fk_customer FOREIGN KEY (customer_id) REFERENCES customer_table(customer_id)
+);
+
+CREATE TABLE orderdetails_table (
+    orderdetailid SERIAL PRIMARY KEY, -- Auto-incrementing unique identifier for order details
+    order_id INT NOT NULL,            -- ID of the associated order
+    product_id INT NOT NULL,          -- ID of the associated product
+    quantity INT NOT NULL,            -- Quantity of the product ordered
+    unitprice NUMERIC(10, 2) NOT NULL, -- Price per unit of the product
+    totalprice NUMERIC(10, 2) NOT NULL, -- Total price (quantity * unitprice)
+    CONSTRAINT fk_order FOREIGN KEY (order_id) REFERENCES orders_table(order_id),
+    CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES products_table(product_id)
+);
+
+CREATE TABLE reviews_table (
+    review_id SERIAL PRIMARY KEY,    -- Auto-incrementing unique identifier for reviews
+    customer_id INT NOT NULL,        -- ID of the customer who left the review
+    product_id INT NOT NULL,         -- ID of the product being reviewed
+    rating INT CHECK (rating BETWEEN 1 AND 5) NOT NULL, -- Rating value (1 to 5)
+    review_text TEXT,                -- Text of the review
+    review_date DATE NOT NULL,       -- Date the review was submitted
+    CONSTRAINT fk_customer_review FOREIGN KEY (customer_id) REFERENCES customer_table(customer_id),
+    CONSTRAINT fk_product_review FOREIGN KEY (product_id) REFERENCES products_table(product_id)
+);

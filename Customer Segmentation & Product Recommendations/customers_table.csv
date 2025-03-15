@@ -1,0 +1,145 @@
+customer_id,first_name,last_name,gender,age,email,phone,state_name,area,country,registration_date
+1,John,Doe,Male,30.0,john.doe@example.com,1234567890,California,West,USA,2024-10-01
+2,Jane,Smith,Female,28.0,jane.smith@example.com,2345678901,Texas,South,USA,2024-10-02
+3,Alice,Johnson,Female,35.0,alice.johnson@example.com,3456789012,Florida,South,USA,2024-10-03
+4,Bob,Brown,Male,40.0,bob.brown@example.com,4567890123,New York,East,USA,2024-10-04
+5,Emily,Davis,Female,22.0,emily.davis@example.com,5678901234,Illinois,Midwest,USA,2024-10-05
+6,Michael,Garcia,Male,50.0,michael.garcia@example.com,6789012345,Nevada,West,USA,2024-10-06
+7,Sarah,Martinez,Female,27.0,sarah.martinez@example.com,7890123456,Oregon,West,USA,2024-10-07
+8,David,Hernandez,Male,34.0,david.hernandez@example.com,8901234567,Arizona,West,USA,2024-10-08
+9,Olivia,Wilson,Female,31.0,olivia.wilson@example.com,9012345678,Ohio,Midwest,USA,2024-10-09
+10,James,Anderson,Male,29.0,james.anderson@example.com,0123456789,Georgia,South,USA,2024-10-10
+11,Emma,Thomas,Female,26.0,emma.thomas@example.com,1357924680,Michigan,Midwest,USA,2024-10-11
+12,Liam,Moore,Male,33.0,liam.moore@example.com,2468135790,Pennsylvania,East,USA,2024-10-12
+13,Sophia,Taylor,Female,24.0,sophia.taylor@example.com,3579246801,Virginia,East,USA,2024-10-13
+14,Benjamin,Jackson,Male,45.0,benjamin.jackson@example.com,4681357902,New Jersey,East,USA,2024-10-14
+15,Isabella,White,Female,29.0,isabella.white@example.com,5792468013,Washington,West,USA,2024-10-15
+16,Mason,Harris,Male,36.0,mason.harris@example.com,6803579124,Minnesota,Midwest,USA,2024-10-16
+17,Charlotte,Martin,Female,25.0,charlotte.martin@example.com,7914680235,Tennessee,South,USA,2024-10-17
+18,Elijah,Thompson,Male,39.0,elijah.thompson@example.com,8025791346,Missouri,Midwest,USA,2024-10-18
+19,Ava,Garcia,Female,32.0,ava.garcia@example.com,9136802457,Alabama,South,USA,2024-10-19
+20,Logan,Martinez,Male,48.0,logan.martinez@example.com,0247913568,Kentucky,South,USA,2024-10-20
+21,Mia,Robinson,Female,30.0,mia.robinson@example.com,1358024679,Colorado,West,USA,2024-10-21
+22,Ethan,Scott,Male,37.0,ethan.scott@example.com,1234567801,Maine,Northeast,USA,2024-10-21
+23,Avery,Young,Female,34.0,avery.young@example.com,2345678902,Connecticut,Northeast,USA,2024-10-22
+24,James,Wright,Male,28.0,james.wright@example.com,3456789013,South Carolina,South,USA,2024-10-23
+25,Sofia,Green,Female,29.0,sofia.green@example.com,4567890124,Rhode Island,Northeast,USA,2024-10-24
+26,Oliver,Adams,Male,41.0,oliver.adams@example.com,5678901235,Wyoming,West,USA,2024-10-25
+27,Mia,Baker,Female,27.0,mia.baker@example.com,6789012346,South Dakota,Midwest,USA,2024-10-26
+28,Lucas,Hall,Male,44.0,lucas.hall@example.com,7890123457,North Dakota,Midwest,USA,2024-10-27
+29,Zoe,Allen,Female,31.0,zoe.allen@example.com,8901234568,Nevada,West,USA,2024-10-28
+30,Daniel,King,Male,38.0,daniel.king@example.com,9012345679,Oklahoma,South,USA,2024-10-29
+31,Ella,Bennett,Female,24.0,ella.bennett@example.com,0123456780,Idaho,West,USA,2024-10-30
+32,Henry,Gonzalez,Male,46.0,henry.gonzalez@example.com,1357924681,Kansas,Midwest,USA,2024-10-31
+33,Chloe,Stewart,Female,30.0,chloe.stewart@example.com,2468135792,Montana,West,USA,2024-11-01
+34,William,Flores,Male,29.0,william.flores@example.com,3579246803,Utah,West,USA,2024-11-02
+35,Grace,Rivera,Female,35.0,grace.rivera@example.com,4681357904,Hawaii,West,USA,2024-11-03
+36,Sebastian,Cooper,Male,32.0,sebastian.cooper@example.com,5792468015,Alaska,West,USA,2024-11-04
+37,Scarlett,Reed,Female,26.0,scarlett.reed@example.com,6803579126,New Mexico,West,USA,2024-11-05
+38,Matthew,Morgan,Male,49.0,matthew.morgan@example.com,7914680237,Puerto Rico,Caribbean,USA,2024-11-06
+39,Aubrey,Peterson,Female,21.0,aubrey.peterson@example.com,8025791348,Washington D.C.,Northeast,USA,2024-11-07
+40,Jack,Hughes,Male,36.0,jack.hughes@example.com,9136802459,New Hampshire,Northeast,USA,2024-11-08
+41,Lily,Sanders,Female,38.0,lily.sanders@example.com,0247913569,Vermont,Northeast,USA,2024-11-09
+42,Alexander,Woods,Male,34.0,alexander.woods@example.com,1357924690,Kentucky,South,USA,2024-11-10
+43,Ella,Brooks,Female,30.0,ella.brooks@example.com,2468135791,Virginia,East,USA,2024-11-11
+44,Caleb,Price,Male,43.0,caleb.price@example.com,3579246802,Iowa,Midwest,USA,2024-11-12
+45,Samantha,Wood,Female,27.0,samantha.wood@example.com,4681357903,Nebraska,Midwest,USA,2024-11-13
+46,Gavin,Russell,Male,29.0,gavin.russell@example.com,5792468014,Maine,Northeast,USA,2024-11-14
+47,Lucy,Cox,Female,36.0,lucy.cox@example.com,6803579125,Mississippi,South,USA,2024-11-15
+48,Eli,Ward,Male,30.0,eli.ward@example.com,7914680236,Alabama,South,USA,2024-11-16
+49,Natalie,James,Female,33.0,natalie.james@example.com,8025791347,Arkansas,South,USA,2024-11-17
+50,Maverick,Butler,Male,45.0,maverick.butler@example.com,9136802460,Oregon,West,USA,2024-11-18
+51,Hannah,Bishop,Female,24.0,hannah.bishop@example.com,0247913570,South Dakota,Midwest,USA,2024-11-19
+52,Isaac,Vasquez,Male,39.0,isaac.vasquez@example.com,1357924691,Nebraska,Midwest,USA,2024-11-20
+53,Madison,Gonzalez,Female,35.0,madison.gonzalez@example.com,2468135792,New Jersey,East,USA,2024-11-21
+54,Jaxon,Hawkins,Male,41.0,jaxon.hawkins@example.com,3579246803,Illinois,Midwest,USA,2024-11-22
+55,Ella,Chapman,Female,29.0,ella.chapman@example.com,4681357904,Indiana,Midwest,USA,2024-11-23
+56,Logan,Crawford,Male,33.0,logan.crawford@example.com,5792468015,Wyoming,West,USA,2024-11-24
+57,Aria,Powell,Female,36.0,aria.powell@example.com,6803579126,Kentucky,South,USA,2024-11-25
+58,James,Long,Male,28.0,james.long@example.com,7914680237,Idaho,West,USA,2024-11-26
+59,Chloe,Day,Female,32.0,chloe.day@example.com,8025791348,Tennessee,South,USA,2024-11-27
+60,Liam,Harris,Male,29.0,liam.harris@example.com,9136802460,Alabama,South,USA,2024-11-28
+61,Scarlett,Curtis,Female,35.0,scarlett.curtis@example.com,0247913571,Arkansas,South,USA,2024-11-29
+62,Wyatt,Duncan,Male,36.0,wyatt.duncan@example.com,1357924692,Florida,South,USA,2024-11-30
+63,Harrison,Bennett,Male,42.0,harrison.bennett@example.com,1234567892,New Jersey,East,USA,2024-12-01
+64,Madelyn,Foster,Female,29.0,madelyn.foster@example.com,2345678903,Georgia,South,USA,2024-12-02
+65,Sebastian,Bryant,Male,33.0,sebastian.bryant@example.com,3456789014,North Carolina,South,USA,2024-12-03
+66,Victoria,Henderson,Female,31.0,victoria.henderson@example.com,4567890125,Ohio,Midwest,USA,2024-12-04
+67,Matthew,Diaz,Male,28.0,matthew.diaz@example.com,5678901236,Oregon,West,USA,2024-12-05
+68,Charlotte,Ray,Female,34.0,charlotte.ray@example.com,6789012347,Nebraska,Midwest,USA,2024-12-06
+69,Christopher,Dixon,Male,40.0,christopher.dixon@example.com,7890123458,New York,East,USA,2024-12-07
+70,Layla,Perkins,Female,26.0,layla.perkins@example.com,8901234569,Illinois,Midwest,USA,2024-12-08
+71,Andrew,Patterson,Male,39.0,andrew.patterson@example.com,9012345670,Texas,South,USA,2024-12-09
+72,Sofia,Graham,Female,32.0,sofia.graham@example.com,0123456781,Florida,South,USA,2024-12-10
+73,Jackson,Cox,Male,45.0,jackson.cox@example.com,1357924682,California,West,USA,2024-12-11
+74,Grace,Howard,Female,24.0,grace.howard@example.com,2468135793,Massachusetts,Northeast,USA,2024-12-12
+75,Samuel,Ward,Male,37.0,samuel.ward@example.com,3579246804,Utah,West,USA,2024-12-13
+76,Aubrey,Russell,Female,30.0,aubrey.russell@example.com,4681357905,New Hampshire,Northeast,USA,2024-12-14
+77,James,Gonzalez,Male,29.0,james.gonzalez@example.com,5792468016,Arizona,West,USA,2024-12-15
+78,Abigail,Ramirez,Female,26.0,abigail.ramirez@example.com,6803579127,Washington,West,USA,2024-12-16
+79,Anthony,Stevens,Male,34.0,anthony.stevens@example.com,7914680238,Minnesota,Midwest,USA,2024-12-17
+80,Lily,Bennett,Female,38.0,lily.bennett@example.com,8025791349,Kentucky,South,USA,2024-12-18
+81,Gabriel,Hayes,Male,41.0,gabriel.hayes@example.com,9136802461,Nevada,West,USA,2024-12-19
+82,Zoe,McDonald,Female,35.0,zoe.mcdonald@example.com,0247913572,North Dakota,Midwest,USA,2024-12-20
+83,Isaac,Hernandez,Male,28.0,isaac.hernandez@example.com,1357924693,Maine,Northeast,USA,2024-12-21
+84,Mia,Harris,Female,32.0,mia.harris@example.com,2468135794,Virginia,East,USA,2024-12-22
+85,Ryan,Nguyen,Male,29.0,ryan.nguyen@example.com,3579246805,Washington D.C.,Northeast,USA,2024-12-23
+86,Layla,Adams,Female,36.0,layla.adams@example.com,4681357906,South Carolina,South,USA,2024-12-24
+87,Matthew,Hughes,Male,42.0,matthew.hughes@example.com,5792468017,Alaska,West,USA,2024-12-25
+88,Sofia,Coleman,Female,40.0,sofia.coleman@example.com,6803579128,Montana,West,USA,2024-12-26
+89,Wyatt,Diaz,Male,27.0,wyatt.diaz@example.com,7914680239,Wyoming,West,USA,2024-12-27
+90,Nora,Simmons,Female,33.0,nora.simmons@example.com,8025791350,New Mexico,West,USA,2024-12-28
+91,Dylan,Mason,Male,36.0,dylan.mason@example.com,9136802462,Kentucky,South,USA,2024-12-29
+92,Camila,Murray,Female,30.0,camila.murray@example.com,0247913573,Georgia,South,USA,2024-12-30
+93,Nathan,Woods,Male,28.0,nathan.woods@example.com,1357924694,Tennessee,South,USA,2024-12-31
+94,Amelia,Lynch,Female,34.0,amelia.lynch@example.com,2468135795,Oregon,West,USA,2025-01-01
+95,Christopher,Holt,Male,32.0,christopher.holt@example.com,3579246806,Pennsylvania,East,USA,2025-01-02
+96,Ella,Gordon,Female,38.0,ella.gordon@example.com,4681357907,Florida,South,USA,2025-01-03
+97,Liam,Bryant,Male,41.0,liam.bryant@example.com,5792468018,California,West,USA,2025-01-04
+98,Ava,Roberts,Female,29.0,ava.roberts@example.com,6803579129,Michigan,Midwest,USA,2025-01-05
+99,Ethan,Price,Male,36.0,ethan.price@example.com,7914680240,Alabama,South,USA,2025-01-06
+100,Chloe,Bishop,Female,35.0,chloe.bishop@example.com,8025791351,Illinois,Midwest,USA,2025-01-07
+101,Lucas,Hayes,Male,38.0,lucas.hayes@example.com,9136802463,Nevada,West,USA,2025-01-08
+102,Avery,Meyer,Female,32.0,avery.meyer@example.com,0247913574,Ohio,Midwest,USA,2025-01-09
+103,Aarav,Sharma,Male,28.0,aarav.sharma@example.com,9988776655,Uttar Pradesh,Lucknow,India,2024-10-01
+104,Saanvi,Verma,Female,24.0,saanvi.verma@example.com,8899776655,Maharashtra,Mumbai,India,2024-10-02
+105,Vivaan,Patel,Male,32.0,vivaan.patel@example.com,7788665544,Gujarat,Ahmedabad,India,2024-10-03
+106,Diya,Iyer,Female,30.0,diya.iyer@example.com,6677554433,Karnataka,Bangalore,India,2024-10-04
+107,Reyansh,Reddy,Male,27.0,reyansh.reddy@example.com,5566443322,Telangana,Hyderabad,India,2024-10-05
+108,Anaya,Mehta,Female,29.0,anaya.mehta@example.com,4455332211,Punjab,Chandigarh,India,2024-10-06
+109,Arjun,Singh,Male,34.0,arjun.singh@example.com,3344221100,Haryana,Gurugram,India,2024-10-07
+110,Aditi,Kumar,Female,25.0,aditi.kumar@example.com,2233110099,Delhi,New Delhi,India,2024-10-08
+111,Kabir,Nair,Male,31.0,kabir.nair@example.com,1122009988,Kerala,Kochi,India,2024-10-09
+112,Shruti,Joshi,Female,28.0,shruti.joshi@example.com,9988776654,Madhya Pradesh,Indore,India,2024-10-10
+113,Karan,Bansal,Male,40.0,karan.bansal@example.com,8899776650,Rajasthan,Jaipur,India,2024-10-11
+114,Nisha,Chawla,Female,36.0,nisha.chawla@example.com,7788665543,Uttarakhand,Dehradun,India,2024-10-12
+115,Rohit,Ghosh,Male,29.0,rohit.ghosh@example.com,6677554432,West Bengal,Kolkata,India,2024-10-13
+116,Pooja,Kaur,Female,24.0,pooja.kaur@example.com,5566443321,Andhra Pradesh,Visakhapatnam,India,2024-10-14
+117,Advik,Mishra,Male,38.0,advik.mishra@example.com,4455332210,Bihar,Patna,India,2024-10-15
+118,Tara,Bhatia,Female,32.0,tara.bhatia@example.com,3344221109,Himachal Pradesh,Shimla,India,2024-10-16
+119,Vihaan,Chatterjee,Male,45.0,vihaan.chatterjee@example.com,2233110098,Odisha,Bhubaneswar,India,2024-10-17
+120,Aarohi,Sethi,Female,30.0,aarohi.sethi@example.com,1122009987,Tamil Nadu,Chennai,India,2024-10-18
+121,Hrithik,Khatri,Male,34.0,hrithik.khatri@example.com,9988776653,Gujarat,Surat,India,2024-10-19
+122,Srishti,Mohan,Female,27.0,srishti.mohan@example.com,8899776649,Karnataka,Mysore,India,2024-10-20
+123,Yash,Chauhan,Male,30.0,yash.chauhan@example.com,7788665542,Madhya Pradesh,Bhopal,India,2024-10-21
+124,Kiara,Ahuja,Female,26.0,kiara.ahuja@example.com,6677554431,Haryana,Faridabad,India,2024-10-22
+125,Ravi,Gandhi,Male,39.0,ravi.gandhi@example.com,5566443320,Uttar Pradesh,Agra,India,2024-10-23
+126,Neha,Nath,Female,35.0,neha.nath@example.com,4455332209,Rajasthan,Udaipur,India,2024-10-24
+127,Dev,Sen,Male,31.0,dev.sen@example.com,3344221108,West Bengal,Siliguri,India,2024-10-25
+128,Sneha,Shukla,Female,33.0,sneha.shukla@example.com,2233110097,Gujarat,Vadodara,India,2024-10-26
+129,Nikhil,Yadav,Male,37.0,nikhil.yadav@example.com,1122009986,Uttarakhand,Haridwar,India,2024-10-27
+130,Tanvi,Nair,Female,29.0,tanvi.nair@example.com,9988776648,Kerala,Thiruvananthapuram,India,2024-10-28
+131,Arush,Rai,Male,26.0,arush.rai@example.com,8899776647,Himachal Pradesh,Dharamshala,India,2024-10-29
+132,Palak,Kumar,Female,24.0,palak.kumar@example.com,7788665541,Madhya Pradesh,Jabalpur,India,2024-10-30
+133,Harsh,Suri,Male,35.0,harsh.suri@example.com,6677554430,Delhi,Faridabad,India,2024-10-31
+134,Kriti,Sharma,Female,30.0,kriti.sharma@example.com,5566443319,Maharashtra,Nagpur,India,2024-11-01
+135,Aditya,Puri,Male,29.0,aditya.puri@example.com,4455332208,Tamil Nadu,Coimbatore,India,2024-11-02
+136,Riya,Kapoor,Female,28.0,riya.kapoor@example.com,3344221107,Punjab,Ludhiana,India,2024-11-03
+137,Siddharth,Singhal,Male,32.0,siddharth.singhal@example.com,2233110096,Karnataka,Belgaum,India,2024-11-04
+138,Tanvi,Patel,Female,26.0,tanvi.patel@example.com,1122009985,Madhya Pradesh,Gwalior,India,2024-11-05
+139,Ayaan,Bhat,Male,37.0,ayaan.bhat@example.com,9988776646,Delhi,Noida,India,2024-11-06
+140,Priya,Kohli,Female,31.0,priya.kohli@example.com,8899776645,Uttarakhand,Rudrapur,India,2024-11-07
+141,Vikram,Chaudhary,Male,40.0,vikram.chaudhary@example.com,7788665540,Bihar,Bhagalpur,India,2024-11-08
+142,Isha,Nanda,Female,29.0,isha.nanda@example.com,6677554429,Uttar Pradesh,Kanpur,India,2024-11-09
+143,Karan,Mehta,Male,34.0,karan.mehta@example.com,5566443318,Maharashtra,Pune,India,2024-11-10
+

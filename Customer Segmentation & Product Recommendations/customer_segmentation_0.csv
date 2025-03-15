@@ -1,0 +1,379 @@
+customer_id,first_name,last_name,category,purchase_count,total_spent,last_purchase_date
+1,John,Doe,Baby Products,2,1127.33,2024-03-22 10:15:00
+1,John,Doe,Clothing,3,2023.50,2024-04-24 14:15:00
+1,John,Doe,Electronics,5,6083.04,2024-04-06 12:00:00
+1,John,Doe,Furniture,4,7342.40,2024-04-17 13:45:00
+1,John,Doe,Gardening,3,2568.85,2024-04-06 12:00:00
+1,John,Doe,Health & Beauty,2,813.00,2024-03-27 14:00:00
+1,John,Doe,Home Appliances,3,2149.70,2024-04-24 14:15:00
+1,John,Doe,Home Decor,1,666.60,2024-02-17 13:30:00
+1,John,Doe,Pets,9,10933.63,2024-04-12 12:30:00
+1,John,Doe,Sports & Outdoors,12,7291.02,2024-04-24 14:15:00
+2,Jane,Smith,Clothing,1,625.00,2024-03-29 15:00:00
+2,Jane,Smith,Electronics,1,2070.00,2024-01-08 09:45:00
+2,Jane,Smith,Furniture,1,2100.00,2024-01-08 09:45:00
+2,Jane,Smith,Gardening,2,998.70,2024-03-29 15:00:00
+2,Jane,Smith,Health & Beauty,1,662.40,2024-03-15 12:30:00
+2,Jane,Smith,Home Appliances,3,1550.00,2024-04-25 11:00:00
+2,Jane,Smith,Pets,2,1252.50,2024-04-14 14:15:00
+2,Jane,Smith,Sports & Outdoors,4,1776.00,2024-04-25 11:00:00
+3,Alice,Johnson,Clothing,1,976.50,2024-01-10 14:00:00
+3,Alice,Johnson,Electronics,1,240.00,2024-03-31 12:00:00
+3,Alice,Johnson,Furniture,3,1636.90,2024-03-17 15:00:00
+3,Alice,Johnson,Gardening,1,1999.00,2024-01-10 14:00:00
+3,Alice,Johnson,Home Appliances,3,2374.90,2024-03-31 12:00:00
+3,Alice,Johnson,Home Decor,1,1858.80,2024-01-22 12:00:00
+3,Alice,Johnson,Pets,1,120.00,2024-01-28 14:15:00
+3,Alice,Johnson,Sports & Outdoors,3,3080.60,2024-01-22 12:00:00
+4,Bob,Brown,Clothing,1,736.80,2024-02-26 12:30:00
+4,Bob,Brown,Electronics,3,2038.50,2024-04-08 13:00:00
+4,Bob,Brown,Gardening,2,4279.25,2024-04-08 13:00:00
+4,Bob,Brown,Home Appliances,1,499.96,2024-01-13 12:45:00
+4,Bob,Brown,Home Decor,2,4480.00,2024-01-13 12:45:00
+4,Bob,Brown,Sports & Outdoors,2,3009.30,2024-04-08 13:00:00
+5,Emily,Davis,Clothing,2,796.63,2024-03-06 10:15:00
+5,Emily,Davis,Electronics,2,1833.66,2024-02-07 13:45:00
+5,Emily,Davis,Furniture,1,899.97,2024-03-19 12:00:00
+5,Emily,Davis,Home Appliances,1,313.50,2024-01-05 15:00:00
+6,Michael,Garcia,Furniture,3,3288.75,2024-04-15 09:00:00
+6,Michael,Garcia,Gardening,1,600.00,2024-03-30 14:15:00
+6,Michael,Garcia,Health & Beauty,3,1886.88,2024-04-15 09:00:00
+6,Michael,Garcia,Home Appliances,1,1333.32,2024-03-30 14:15:00
+6,Michael,Garcia,Pets,2,1754.00,2024-03-30 14:15:00
+6,Michael,Garcia,Sports & Outdoors,3,2099.88,2024-04-15 09:00:00
+7,Sarah,Martinez,Clothing,1,150.00,2024-04-16 11:30:00
+7,Sarah,Martinez,Gardening,1,225.00,2024-04-03 15:15:00
+7,Sarah,Martinez,Home Appliances,4,3426.72,2024-04-16 11:30:00
+7,Sarah,Martinez,Home Decor,1,617.25,2024-02-22 16:30:00
+7,Sarah,Martinez,Pets,3,6787.42,2024-04-16 11:30:00
+7,Sarah,Martinez,Sports & Outdoors,4,5463.32,2024-04-16 11:30:00
+8,David,Hernandez,Clothing,3,2075.90,2024-04-19 14:00:00
+8,David,Hernandez,Electronics,1,450.00,2024-01-09 16:45:00
+8,David,Hernandez,Gardening,2,3114.66,2024-04-19 14:00:00
+8,David,Hernandez,Health & Beauty,1,270.00,2024-03-21 10:45:00
+8,David,Hernandez,Home Appliances,2,1122.40,2024-03-21 10:45:00
+8,David,Hernandez,Pets,1,576.10,2024-01-09 16:45:00
+8,David,Hernandez,Sports & Outdoors,4,7503.00,2024-04-19 14:00:00
+9,Olivia,Wilson,Electronics,1,602.00,2024-03-23 13:15:00
+9,Olivia,Wilson,Furniture,2,2407.60,2024-02-28 14:30:00
+9,Olivia,Wilson,Gardening,1,415.80,2024-01-11 09:15:00
+9,Olivia,Wilson,Health & Beauty,1,900.00,2024-04-20 10:15:00
+9,Olivia,Wilson,Home Appliances,3,2721.20,2024-04-20 10:15:00
+9,Olivia,Wilson,Pets,3,5887.71,2024-02-05 10:15:00
+9,Olivia,Wilson,Sports & Outdoors,3,1560.00,2024-04-20 10:15:00
+10,James,Anderson,Electronics,1,800.00,2024-04-21 12:45:00
+10,James,Anderson,Gardening,1,400.00,2024-02-27 10:00:00
+10,James,Anderson,Health & Beauty,2,720.00,2024-04-21 12:45:00
+10,James,Anderson,Home Appliances,1,800.00,2024-03-24 15:30:00
+10,James,Anderson,Home Decor,1,500.00,2024-04-21 12:45:00
+10,James,Anderson,Pets,4,3848.53,2024-02-27 10:00:00
+10,James,Anderson,Sports & Outdoors,1,2924.40,2024-01-12 10:30:00
+11,Emma,Thomas,Clothing,1,175.00,2024-03-25 09:45:00
+11,Emma,Thomas,Furniture,1,1336.93,2024-02-11 17:00:00
+11,Emma,Thomas,Gardening,1,572.00,2024-01-14 16:30:00
+11,Emma,Thomas,Home Appliances,2,1100.00,2024-03-25 09:45:00
+11,Emma,Thomas,Pets,3,4988.10,2024-04-22 13:30:00
+11,Emma,Thomas,Sports & Outdoors,3,2360.30,2024-04-22 13:30:00
+12,Liam,Moore,Clothing,1,2719.20,2024-02-15 12:00:00
+12,Liam,Moore,Electronics,2,1699.80,2024-03-02 11:15:00
+12,Liam,Moore,Furniture,1,1686.06,2024-01-17 17:00:00
+12,Liam,Moore,Gardening,1,1000.00,2024-03-26 12:15:00
+12,Liam,Moore,Health & Beauty,1,450.00,2024-04-23 09:15:00
+12,Liam,Moore,Pets,2,2715.93,2024-04-23 09:15:00
+12,Liam,Moore,Sports & Outdoors,4,1908.00,2024-04-23 09:15:00
+13,Sophia,Taylor,Clothing,1,300.00,2024-04-01 09:30:00
+13,Sophia,Taylor,Electronics,2,535.99,2024-03-04 09:00:00
+13,Sophia,Taylor,Furniture,1,1816.00,2024-03-04 09:00:00
+13,Sophia,Taylor,Health & Beauty,1,693.70,2024-03-04 09:00:00
+13,Sophia,Taylor,Home Appliances,1,750.00,2024-04-01 09:30:00
+13,Sophia,Taylor,Pets,2,1387.60,2024-02-16 09:15:00
+13,Sophia,Taylor,Sports & Outdoors,2,2975.89,2024-04-01 09:30:00
+14,Benjamin,Jackson,Furniture,1,540.00,2024-04-02 11:45:00
+14,Benjamin,Jackson,Home Appliances,5,3916.30,2024-04-02 11:45:00
+14,Benjamin,Jackson,Sports & Outdoors,1,930.00,2024-01-21 13:00:00
+15,Isabella,White,Gardening,2,2612.70,2024-04-04 10:00:00
+15,Isabella,White,Health & Beauty,1,400.00,2024-04-04 10:00:00
+15,Isabella,White,Pets,1,1022.00,2024-01-24 09:30:00
+16,Mason,Harris,Furniture,1,540.00,2024-04-05 14:30:00
+16,Mason,Harris,Health & Beauty,1,1117.75,2024-01-27 17:30:00
+16,Mason,Harris,Home Appliances,1,862.22,2024-03-07 16:30:00
+16,Mason,Harris,Pets,2,5005.50,2024-04-05 14:30:00
+16,Mason,Harris,Sports & Outdoors,1,400.00,2024-04-05 14:30:00
+17,Charlotte,Martin,Electronics,1,600.00,2024-04-07 10:15:00
+17,Charlotte,Martin,Furniture,1,1800.00,2024-01-29 11:30:00
+17,Charlotte,Martin,Gardening,1,389.80,2024-03-10 09:45:00
+17,Charlotte,Martin,Home Appliances,1,2460.00,2024-03-10 09:45:00
+17,Charlotte,Martin,Pets,1,90.00,2024-04-07 10:15:00
+17,Charlotte,Martin,Sports & Outdoors,1,2611.44,2024-04-07 10:15:00
+18,Elijah,Thompson,Electronics,2,8035.24,2024-04-09 15:30:00
+18,Elijah,Thompson,Furniture,1,1236.66,2024-03-12 10:30:00
+18,Elijah,Thompson,Gardening,2,930.00,2024-04-09 15:30:00
+18,Elijah,Thompson,Home Appliances,2,3745.40,2024-01-30 15:45:00
+18,Elijah,Thompson,Sports & Outdoors,1,250.00,2024-04-09 15:30:00
+19,Ava,Garcia,Electronics,1,1089.00,2024-04-10 09:45:00
+19,Ava,Garcia,Furniture,1,1612.20,2024-03-14 13:00:00
+19,Ava,Garcia,Gardening,1,525.00,2024-04-10 09:45:00
+19,Ava,Garcia,Pets,3,2840.70,2024-04-10 09:45:00
+19,Ava,Garcia,Sports & Outdoors,1,200.00,2024-04-10 09:45:00
+20,Logan,Martinez,Baby Products,1,360.00,2024-04-11 11:00:00
+20,Logan,Martinez,Furniture,1,1351.50,2024-02-06 15:30:00
+20,Logan,Martinez,Home Appliances,3,2900.45,2024-04-11 11:00:00
+20,Logan,Martinez,Home Decor,1,1455.00,2024-02-06 15:30:00
+20,Logan,Martinez,Sports & Outdoors,1,525.00,2024-04-11 11:00:00
+21,Mia,Robinson,Baby Products,1,541.98,2024-03-20 14:30:00
+21,Mia,Robinson,Clothing,1,250.00,2024-03-20 14:30:00
+21,Mia,Robinson,Electronics,1,360.00,2024-04-13 10:00:00
+21,Mia,Robinson,Health & Beauty,2,1081.52,2024-04-13 10:00:00
+21,Mia,Robinson,Home Appliances,2,577.98,2024-04-13 10:00:00
+21,Mia,Robinson,Pets,1,600.00,2024-03-20 14:30:00
+21,Mia,Robinson,Sports & Outdoors,1,200.00,2024-03-20 14:30:00
+22,Ethan,Scott,Electronics,2,1693.00,2024-04-18 15:00:00
+22,Ethan,Scott,Gardening,2,1610.70,2024-03-28 10:30:00
+22,Ethan,Scott,Home Decor,1,350.00,2024-04-18 15:00:00
+22,Ethan,Scott,Pets,1,270.00,2024-04-18 15:00:00
+22,Ethan,Scott,Sports & Outdoors,1,800.00,2024-03-28 10:30:00
+23,Avery,Young,Electronics,1,1633.80,2024-02-19 10:30:00
+23,Avery,Young,Sports & Outdoors,1,1329.93,2024-02-19 10:30:00
+30,Daniel,King,Electronics,1,600.00,2024-05-14 10:30:00
+30,Daniel,King,Furniture,1,270.00,2024-05-01 10:00:00
+30,Daniel,King,Health & Beauty,1,1000.00,2024-05-01 10:00:00
+30,Daniel,King,Home Appliances,2,1100.00,2024-07-04 12:30:00
+30,Daniel,King,Pets,3,2446.00,2024-05-14 10:30:00
+30,Daniel,King,Sports & Outdoors,1,667.74,2024-05-01 10:00:00
+31,Ella,Bennett,Clothing,1,800.00,2024-05-01 11:00:00
+31,Ella,Bennett,Gardening,1,350.00,2024-05-01 11:00:00
+31,Ella,Bennett,Sports & Outdoors,5,2240.00,2024-07-05 14:45:00
+32,Henry,Gonzalez,Electronics,1,1207.89,2024-05-02 12:00:00
+32,Henry,Gonzalez,Health & Beauty,2,870.00,2024-05-16 15:30:00
+32,Henry,Gonzalez,Home Appliances,1,1500.00,2024-05-16 15:30:00
+32,Henry,Gonzalez,Pets,3,1225.00,2024-07-06 09:00:00
+32,Henry,Gonzalez,Sports & Outdoors,1,750.00,2024-05-02 12:00:00
+33,Chloe,Stewart,Clothing,2,1600.00,2024-05-17 09:00:00
+33,Chloe,Stewart,Health & Beauty,1,350.00,2024-07-07 15:30:00
+33,Chloe,Stewart,Home Appliances,1,625.00,2024-05-02 14:30:00
+33,Chloe,Stewart,Pets,1,350.00,2024-05-17 09:00:00
+33,Chloe,Stewart,Sports & Outdoors,2,800.00,2024-05-17 09:00:00
+34,William,Flores,Gardening,1,180.00,2024-05-03 15:15:00
+34,William,Flores,Health & Beauty,2,1800.00,2024-05-18 11:45:00
+34,William,Flores,Pets,1,300.00,2024-07-08 11:15:00
+34,William,Flores,Sports & Outdoors,3,1050.00,2024-05-18 11:45:00
+35,Grace,Rivera,Baby Products,1,700.00,2024-05-04 10:45:00
+35,Grace,Rivera,Clothing,1,400.00,2024-05-19 13:15:00
+35,Grace,Rivera,Furniture,1,450.00,2024-05-04 10:45:00
+35,Grace,Rivera,Home Appliances,1,600.00,2024-05-19 13:15:00
+35,Grace,Rivera,Sports & Outdoors,3,1825.00,2024-07-09 10:00:00
+36,Sebastian,Cooper,Health & Beauty,1,600.00,2024-05-20 10:00:00
+36,Sebastian,Cooper,Home Appliances,2,590.00,2024-05-05 14:00:00
+36,Sebastian,Cooper,Sports & Outdoors,4,2510.00,2024-07-10 09:30:00
+37,Scarlett,Reed,Gardening,1,1800.00,2024-05-21 12:45:00
+37,Scarlett,Reed,Health & Beauty,2,1135.64,2024-05-21 12:45:00
+37,Scarlett,Reed,Home Appliances,1,450.00,2024-05-06 16:15:00
+37,Scarlett,Reed,Pets,1,600.00,2024-05-21 12:45:00
+37,Scarlett,Reed,Sports & Outdoors,3,2200.00,2024-07-11 12:00:00
+38,Matthew,Morgan,Electronics,1,200.00,2024-05-07 09:30:00
+38,Matthew,Morgan,Home Appliances,2,630.00,2024-05-22 16:30:00
+38,Matthew,Morgan,Pets,1,500.00,2024-05-07 09:30:00
+38,Matthew,Morgan,Sports & Outdoors,3,2300.00,2024-07-12 14:30:00
+39,Aubrey,Peterson,Electronics,1,2893.50,2024-05-08 12:15:00
+39,Aubrey,Peterson,Health & Beauty,1,1500.00,2024-05-08 12:15:00
+39,Aubrey,Peterson,Home Appliances,1,400.00,2024-05-23 10:00:00
+39,Aubrey,Peterson,Pets,1,500.00,2024-05-08 12:15:00
+39,Aubrey,Peterson,Sports & Outdoors,4,1625.00,2024-07-13 15:00:00
+40,Jack,Hughes,Clothing,1,180.00,2024-05-09 10:00:00
+40,Jack,Hughes,Furniture,1,1438.56,2024-05-09 10:00:00
+40,Jack,Hughes,Health & Beauty,1,1200.00,2024-07-14 11:45:00
+40,Jack,Hughes,Home Appliances,1,600.00,2024-05-09 10:00:00
+40,Jack,Hughes,Pets,1,270.00,2024-05-24 14:00:00
+40,Jack,Hughes,Sports & Outdoors,1,600.00,2024-05-09 10:00:00
+41,Lily,Sanders,Health & Beauty,1,1000.00,2024-05-10 14:45:00
+41,Lily,Sanders,Home Appliances,1,350.00,2024-07-15 10:15:00
+41,Lily,Sanders,Pets,1,750.00,2024-05-10 14:45:00
+41,Lily,Sanders,Sports & Outdoors,2,1584.90,2024-07-15 10:15:00
+42,Alexander,Woods,Home Appliances,1,900.00,2024-05-11 11:15:00
+42,Alexander,Woods,Pets,1,150.00,2024-07-16 12:00:00
+42,Alexander,Woods,Sports & Outdoors,2,880.00,2024-05-11 11:15:00
+43,Ella,Brooks,Baby Products,1,2663.76,2024-07-17 14:30:00
+43,Ella,Brooks,Home Appliances,1,750.00,2024-05-12 09:30:00
+43,Ella,Brooks,Sports & Outdoors,3,1525.00,2024-07-17 14:30:00
+44,Caleb,Price,Electronics,2,2764.53,2024-05-13 13:00:00
+44,Caleb,Price,Health & Beauty,1,200.00,2024-05-13 13:00:00
+44,Caleb,Price,Home Appliances,1,540.00,2024-05-13 13:00:00
+44,Caleb,Price,Pets,1,1000.00,2024-05-13 13:00:00
+44,Caleb,Price,Sports & Outdoors,1,875.00,2024-07-18 09:00:00
+45,Samantha,Wood,Sports & Outdoors,1,800.00,2024-07-19 11:00:00
+46,Gavin,Russell,Gardening,1,1699.50,2024-07-20 15:15:00
+46,Gavin,Russell,Health & Beauty,1,300.00,2024-07-20 15:15:00
+46,Gavin,Russell,Home Appliances,1,1686.20,2024-07-20 15:15:00
+47,Lucy,Cox,Sports & Outdoors,3,900.00,2024-07-21 10:00:00
+48,Eli,Ward,Health & Beauty,1,375.00,2024-06-01 12:30:00
+48,Eli,Ward,Sports & Outdoors,1,700.00,2024-07-22 14:00:00
+49,Natalie,James,Home Appliances,1,175.00,2024-06-02 14:45:00
+49,Natalie,James,Sports & Outdoors,1,150.00,2024-07-23 09:45:00
+50,Maverick,Butler,Gardening,1,2873.70,2024-06-03 09:00:00
+50,Maverick,Butler,Sports & Outdoors,2,2300.00,2024-07-24 11:30:00
+51,Hannah,Bishop,Health & Beauty,1,300.00,2024-06-04 10:00:00
+51,Hannah,Bishop,Home Appliances,1,175.00,2024-07-25 10:15:00
+51,Hannah,Bishop,Pets,1,300.00,2024-06-04 10:00:00
+52,Isaac,Vasquez,Pets,1,600.00,2024-07-26 12:00:00
+52,Isaac,Vasquez,Sports & Outdoors,1,300.00,2024-06-05 11:15:00
+53,Madison,Gonzalez,Health & Beauty,1,1000.00,2024-07-27 15:00:00
+53,Madison,Gonzalez,Pets,2,1332.03,2024-07-27 15:00:00
+53,Madison,Gonzalez,Sports & Outdoors,1,875.00,2024-06-06 15:00:00
+54,Jaxon,Hawkins,Sports & Outdoors,2,500.00,2024-07-28 09:15:00
+55,Ella,Chapman,Home Appliances,1,350.00,2024-06-08 10:15:00
+55,Ella,Chapman,Sports & Outdoors,2,1500.00,2024-07-29 14:15:00
+56,Logan,Crawford,Pets,1,150.00,2024-06-09 09:30:00
+56,Logan,Crawford,Sports & Outdoors,2,1351.60,2024-07-30 11:00:00
+57,Aria,Powell,Pets,1,175.00,2024-07-31 10:30:00
+57,Aria,Powell,Sports & Outdoors,1,600.00,2024-06-10 11:00:00
+58,James,Long,Health & Beauty,1,875.00,2024-06-11 12:00:00
+58,James,Long,Home Appliances,1,608.70,2024-08-01 14:00:00
+58,James,Long,Sports & Outdoors,1,200.00,2024-08-01 14:00:00
+59,Chloe,Day,Pets,2,1363.50,2024-08-02 12:30:00
+59,Chloe,Day,Sports & Outdoors,1,400.00,2024-08-02 12:30:00
+60,Liam,Harris,Sports & Outdoors,2,850.00,2024-08-03 15:30:00
+61,Scarlett,Curtis,Furniture,1,770.55,2024-08-04 11:45:00
+61,Scarlett,Curtis,Sports & Outdoors,2,575.00,2024-08-04 11:45:00
+62,Wyatt,Duncan,Electronics,1,4251.87,2024-08-05 10:00:00
+62,Wyatt,Duncan,Home Appliances,1,125.00,2024-06-15 12:00:00
+62,Wyatt,Duncan,Sports & Outdoors,1,1000.00,2024-08-05 10:00:00
+63,Harrison,Bennett,Health & Beauty,1,1000.00,2024-08-06 09:30:00
+63,Harrison,Bennett,Sports & Outdoors,2,900.00,2024-06-16 11:15:00
+64,Madelyn,Foster,Pets,1,300.00,2024-08-07 12:15:00
+64,Madelyn,Foster,Sports & Outdoors,1,350.00,2024-06-17 14:15:00
+65,Sebastian,Bryant,Health & Beauty,1,1000.00,2024-06-18 10:30:00
+65,Sebastian,Bryant,Sports & Outdoors,1,600.00,2024-08-08 10:15:00
+66,Victoria,Henderson,Pets,1,500.00,2024-06-19 12:30:00
+66,Victoria,Henderson,Sports & Outdoors,1,400.00,2024-08-09 11:00:00
+67,Matthew,Diaz,Pets,2,350.00,2024-08-10 12:30:00
+68,Charlotte,Ray,Furniture,1,1434.33,2024-06-21 15:30:00
+68,Charlotte,Ray,Gardening,1,1722.75,2024-06-21 15:30:00
+68,Charlotte,Ray,Sports & Outdoors,3,1500.00,2024-08-11 10:30:00
+69,Christopher,Dixon,Sports & Outdoors,2,1000.00,2024-08-12 14:15:00
+70,Layla,Perkins,Health & Beauty,1,1500.00,2024-08-13 09:00:00
+70,Layla,Perkins,Sports & Outdoors,1,1000.00,2024-06-23 10:00:00
+71,Andrew,Patterson,Clothing,1,488.77,2024-08-14 12:00:00
+71,Andrew,Patterson,Home Appliances,2,875.00,2024-08-14 12:00:00
+72,Sofia,Graham,Health & Beauty,1,300.00,2024-06-25 13:30:00
+72,Sofia,Graham,Pets,1,894.50,2024-06-25 13:30:00
+72,Sofia,Graham,Sports & Outdoors,1,300.00,2024-08-15 15:30:00
+73,Jackson,Cox,Baby Products,1,3208.88,2024-06-26 10:15:00
+73,Jackson,Cox,Pets,1,300.00,2024-06-26 10:15:00
+73,Jackson,Cox,Sports & Outdoors,2,2886.55,2024-08-16 10:00:00
+74,Grace,Howard,Sports & Outdoors,2,700.00,2024-08-17 14:00:00
+75,Samuel,Ward,Pets,1,450.00,2024-08-18 09:15:00
+75,Samuel,Ward,Sports & Outdoors,1,700.00,2024-06-28 15:00:00
+76,Aubrey,Russell,Home Appliances,1,786.31,2024-08-19 12:30:00
+76,Aubrey,Russell,Sports & Outdoors,2,700.00,2024-08-19 12:30:00
+77,James,Gonzalez,Health & Beauty,1,800.00,2024-08-20 11:00:00
+77,James,Gonzalez,Home Appliances,1,641.98,2024-06-30 09:15:00
+77,James,Gonzalez,Sports & Outdoors,1,600.00,2024-06-30 09:15:00
+78,Abigail,Ramirez,Health & Beauty,1,500.00,2024-07-01 14:00:00
+78,Abigail,Ramirez,Sports & Outdoors,1,500.00,2024-08-21 10:15:00
+79,Anthony,Stevens,Sports & Outdoors,3,669.70,2024-08-22 14:00:00
+80,Lily,Bennett,Sports & Outdoors,2,1675.00,2024-08-23 15:00:00
+81,Gabriel,Hayes,Home Appliances,1,525.00,2024-09-01 10:00:00
+81,Gabriel,Hayes,Sports & Outdoors,1,400.00,2024-11-01 10:00:00
+82,Zoe,McDonald,Health & Beauty,1,567.99,2024-11-02 12:00:00
+82,Zoe,McDonald,Pets,2,3338.60,2024-11-02 12:00:00
+82,Zoe,McDonald,Sports & Outdoors,1,400.00,2024-11-02 12:00:00
+83,Isaac,Hernandez,Pets,1,200.00,2024-09-02 12:00:00
+83,Isaac,Hernandez,Sports & Outdoors,1,750.00,2024-11-03 14:30:00
+84,Mia,Harris,Health & Beauty,1,1200.00,2024-11-04 11:15:00
+84,Mia,Harris,Sports & Outdoors,2,1360.91,2024-11-04 11:15:00
+85,Ryan,Nguyen,Home Appliances,1,1000.00,2024-11-05 10:00:00
+85,Ryan,Nguyen,Sports & Outdoors,1,1000.00,2024-09-03 10:30:00
+86,Layla,Adams,Health & Beauty,1,600.00,2024-09-04 10:00:00
+86,Layla,Adams,Pets,1,175.00,2024-11-06 12:15:00
+87,Matthew,Hughes,Home Appliances,1,1500.00,2024-09-05 11:30:00
+87,Matthew,Hughes,Sports & Outdoors,2,4675.70,2024-11-07 09:30:00
+88,Sofia,Coleman,Gardening,1,799.96,2024-11-08 15:30:00
+88,Sofia,Coleman,Pets,1,600.00,2024-11-08 15:30:00
+88,Sofia,Coleman,Sports & Outdoors,1,700.00,2024-09-06 12:45:00
+89,Wyatt,Diaz,Sports & Outdoors,2,500.00,2024-11-09 11:00:00
+90,Nora,Simmons,Sports & Outdoors,2,1075.00,2024-11-10 14:00:00
+91,Dylan,Mason,Pets,1,600.00,2024-09-09 10:15:00
+91,Dylan,Mason,Sports & Outdoors,1,1000.00,2024-11-11 10:15:00
+92,Camila,Murray,Health & Beauty,1,600.00,2024-11-12 12:00:00
+92,Camila,Murray,Home Appliances,1,2223.92,2024-11-12 12:00:00
+92,Camila,Murray,Sports & Outdoors,1,1250.00,2024-09-10 14:00:00
+93,Nathan,Woods,Home Appliances,1,525.00,2024-11-13 15:00:00
+93,Nathan,Woods,Pets,1,525.00,2024-09-11 11:00:00
+94,Amelia,Lynch,Health & Beauty,1,400.00,2024-09-12 10:00:00
+94,Amelia,Lynch,Pets,1,200.00,2024-11-14 10:30:00
+95,Christopher,Holt,Home Decor,1,1378.85,2024-11-15 14:45:00
+95,Christopher,Holt,Sports & Outdoors,2,700.00,2024-11-15 14:45:00
+96,Ella,Gordon,Clothing,1,361.20,2024-09-14 12:30:00
+96,Ella,Gordon,Pets,1,175.00,2024-11-16 09:00:00
+96,Ella,Gordon,Sports & Outdoors,1,700.00,2024-09-14 12:30:00
+97,Liam,Bryant,Sports & Outdoors,2,1000.00,2024-11-17 11:30:00
+98,Ava,Roberts,Home Appliances,1,175.00,2024-09-16 14:00:00
+98,Ava,Roberts,Sports & Outdoors,1,400.00,2024-11-18 14:00:00
+99,Ethan,Price,Pets,1,600.00,2024-09-17 09:00:00
+99,Ethan,Price,Sports & Outdoors,1,750.00,2024-11-19 10:00:00
+100,Chloe,Bishop,Health & Beauty,2,1602.42,2024-11-20 12:30:00
+100,Chloe,Bishop,Pets,1,600.00,2024-09-18 11:15:00
+101,Lucas,Hayes,Furniture,1,176.33,2024-09-19 10:00:00
+101,Lucas,Hayes,Home Appliances,1,1000.00,2024-11-21 15:30:00
+101,Lucas,Hayes,Sports & Outdoors,1,500.00,2024-09-19 10:00:00
+102,Avery,Meyer,Pets,1,300.00,2024-11-22 09:15:00
+102,Avery,Meyer,Sports & Outdoors,1,175.00,2024-09-20 12:00:00
+103,Aarav,Sharma,Sports & Outdoors,3,2740.32,2024-11-23 11:00:00
+104,Saanvi,Verma,Furniture,1,2013.90,2024-11-24 10:30:00
+104,Saanvi,Verma,Pets,1,700.00,2024-11-24 10:30:00
+104,Saanvi,Verma,Sports & Outdoors,1,1000.00,2024-09-22 14:30:00
+105,Vivaan,Patel,Health & Beauty,1,600.00,2024-09-23 10:15:00
+105,Vivaan,Patel,Pets,1,1097.39,2024-11-25 14:00:00
+105,Vivaan,Patel,Sports & Outdoors,1,300.00,2024-11-25 14:00:00
+106,Diya,Iyer,Gardening,1,379.00,2024-09-24 10:00:00
+106,Diya,Iyer,Home Appliances,1,1500.00,2024-09-24 10:00:00
+106,Diya,Iyer,Pets,1,2814.77,2024-09-24 10:00:00
+106,Diya,Iyer,Sports & Outdoors,1,1250.00,2024-11-26 12:00:00
+107,Reyansh,Reddy,Sports & Outdoors,2,1200.00,2024-11-27 10:15:00
+108,Anaya,Mehta,Health & Beauty,1,175.00,2024-11-28 11:45:00
+108,Anaya,Mehta,Sports & Outdoors,1,200.00,2024-09-26 09:45:00
+109,Arjun,Singh,Home Appliances,1,1500.00,2024-11-29 15:30:00
+109,Arjun,Singh,Sports & Outdoors,1,300.00,2024-09-27 11:00:00
+110,Aditi,Kumar,Pets,2,1250.00,2024-11-30 10:00:00
+111,Kabir,Nair,Sports & Outdoors,1,800.00,2024-09-29 12:15:00
+112,Shruti,Joshi,Pets,1,175.00,2024-09-30 10:30:00
+113,Karan,Bansal,Sports & Outdoors,1,200.00,2024-10-01 14:45:00
+114,Nisha,Chawla,Sports & Outdoors,1,1250.00,2024-10-02 09:15:00
+115,Rohit,Ghosh,Sports & Outdoors,1,600.00,2024-10-03 10:00:00
+116,Pooja,Kaur,Health & Beauty,1,1000.00,2024-10-04 11:00:00
+117,Advik,Mishra,Home Appliances,1,1500.00,2024-10-05 12:30:00
+118,Tara,Bhatia,Sports & Outdoors,1,200.00,2024-10-06 14:15:00
+119,Vihaan,Chatterjee,Pets,1,700.00,2024-10-07 09:00:00
+120,Aarohi,Sethi,Pets,1,300.00,2024-10-08 10:45:00
+121,Hrithik,Khatri,Pets,1,2943.90,2024-10-09 14:30:00
+121,Hrithik,Khatri,Sports & Outdoors,1,300.00,2024-10-09 14:30:00
+122,Srishti,Mohan,Sports & Outdoors,1,1000.00,2024-10-10 10:15:00
+123,Yash,Chauhan,Sports & Outdoors,1,1000.00,2024-10-11 12:00:00
+124,Kiara,Ahuja,Health & Beauty,1,300.00,2024-10-12 15:30:00
+125,Ravi,Gandhi,Home Appliances,1,875.00,2024-10-13 11:15:00
+126,Neha,Nath,Pets,1,400.00,2024-10-14 10:30:00
+127,Dev,Sen,Sports & Outdoors,1,450.00,2024-10-15 09:00:00
+128,Sneha,Shukla,Gardening,1,2538.60,2024-10-16 11:00:00
+128,Sneha,Shukla,Pets,1,175.00,2024-10-16 11:00:00
+129,Nikhil,Yadav,Sports & Outdoors,1,400.00,2024-10-17 10:00:00
+130,Tanvi,Nair,Home Appliances,1,719.60,2024-10-18 14:00:00
+130,Tanvi,Nair,Sports & Outdoors,1,400.00,2024-10-18 14:00:00
+131,Arush,Rai,Sports & Outdoors,1,1250.00,2024-10-19 15:30:00
+132,Palak,Kumar,Health & Beauty,1,900.00,2024-10-20 10:15:00
+133,Harsh,Suri,Clothing,2,3690.72,2024-10-21 12:00:00
+133,Harsh,Suri,Home Appliances,1,700.00,2024-10-21 12:00:00
+133,Harsh,Suri,Pets,1,1043.98,2024-10-21 12:00:00
+134,Kriti,Sharma,Pets,1,200.00,2024-10-22 11:45:00
+135,Aditya,Puri,Pets,1,300.00,2024-10-23 09:30:00
+135,Aditya,Puri,Sports & Outdoors,1,1021.98,2024-10-23 09:30:00
+136,Riya,Kapoor,Sports & Outdoors,1,500.00,2024-10-24 12:30:00
+137,Siddharth,Singhal,Pets,1,2070.39,2024-10-25 10:00:00
+137,Siddharth,Singhal,Sports & Outdoors,1,800.00,2024-10-25 10:00:00
+138,Tanvi,Patel,Sports & Outdoors,1,750.00,2024-10-26 15:00:00
+139,Ayaan,Bhat,Health & Beauty,1,600.00,2024-10-27 10:30:00
+140,Priya,Kohli,Gardening,1,1269.45,2024-10-28 11:00:00
+140,Priya,Kohli,Home Appliances,1,175.00,2024-10-28 11:00:00
+141,Vikram,Chaudhary,Pets,1,600.00,2024-10-29 14:30:00
+142,Isha,Nanda,Pets,1,1409.24,2024-10-30 09:00:00
+142,Isha,Nanda,Sports & Outdoors,1,300.00,2024-10-30 09:00:00
+143,Karan,Mehta,Pets,1,175.00,2024-10-31 15:15:00
